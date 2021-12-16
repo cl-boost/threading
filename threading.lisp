@@ -17,7 +17,7 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/threading
+(defpackage :boost-threading
   (:use :cl)
   (:export
    #:~>
@@ -25,7 +25,7 @@
    #:and~>
    #:and~>>))
 
-(in-package :cl-batteries/threading)
+(in-package :boost-threading)
 
 ;;; ----------------------------------------------------
 
